@@ -1,0 +1,4 @@
+	To run the application, you need to enter "localhost" in the browser. Next, to enter the administrator page, you must enter the login - admin and password - 12345678. You can view user information by clicking on the username on the "The list of users" page. Also there you can sort the list of users by clicking on the arrows (in descending or ascending order), delete or edit a user (by clicking on the delete or edit link). On the "Add user" page, you can add a new user to the database table. If you click on the "Exit" link, you will leave the session and you will have to go through authorization again.
+	The file for connecting to the database is located at the path: application/config/db.php.
+	The statement of the problem does not say anything about adaptive layout. Therefore, the application was developed for a fixed screen width (diagonal of my laptop is 15.6). Media queries are not included in the code.
+	The SQL dump of the database is stored in the DB folder.
